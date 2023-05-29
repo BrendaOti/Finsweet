@@ -141,6 +141,221 @@
     height: 400px;
 }
 
+.section2 {
+    background-color: #F4F6FC;
+    padding: 40px 0;
+}
+
+.section2 .section2area {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.section2 .section2area .sectionleft {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.section2 .section2area .sectionleft h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 64px;
+    color: #282938;
+}
+
+.section2 .section2area .sectionleft p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+.section2 .section2area .sectionleft span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #2405F2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.section2 .section2area .sectionleft span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.section2 .section2area .sectionright {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.section2 .section2area .sectionright .sectionitem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.section2 .section2area .sectionright .sectionitem h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    color: #282938;
+}
+
+.section2 .section2area .sectionright .sectionitem p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #282938;
+}
+
+.section3 {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.section3 .thirdsection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.section3 .thirdsection .thirdsectionheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section3 .thirdsection .thirdsectionheader h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.section3 .thirdsection .thirdsectionheader span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #282938;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.section3 .thirdsection .thirdsectionheader span a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section3 .thirdsection .thirdsectionproject {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+}
+
+.section3 .thirdsection .thirdsectionproject .mainproject {
+    flex: 2;
+    position: relative;
+}
+
+.section3 .thirdsection .thirdsectionproject .mainproject img {
+    width: 100%;
+    height: 585px;
+}
+
+.section3 .thirdsection .thirdsectionproject .mainproject .overlay {
+    position: absolute;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
+
+.section3 .thirdsection .thirdsectionproject .mainproject .overlay .projectdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section3 .thirdsection .thirdsectionproject .mainproject .overlay .projectdetails h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.section3 .thirdsection .thirdsectionproject .mainproject .overlay .projectdetails p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.section3 .thirdsection .thirdsectionproject .spanstyle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FCD980;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.section3 .thirdsection .thirdsectionproject .spanstyle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section3 .thirdsection .thirdsectionproject .sideproject {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 .thirdsection .thirdsectionproject .sideproject .sideproject2 {
+    position: relative;
+}
+
+.section3 .thirdsection .thirdsectionproject .sideproject img {
+    width: 100%;
+    height: 280px;
+}
+
+.section3 .thirdsection .thirdsectionproject .sideproject .sideproject2overlay {
+    position: absolute;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    top: 0;
+    flex-direction: column;
+}
 
 
 @media screen and (max-width:768px) {
@@ -172,10 +387,12 @@
     .rap {
         flex-direction: column;
     }
+
     .left h1 {
-        font-size: 30px ;
+        font-size: 30px;
         line-height: 33px;
     }
+
     .left h6 {
         font-size: 14px;
     }
